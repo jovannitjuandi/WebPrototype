@@ -1,0 +1,129 @@
+/* ENTIRE FILE */
+*{margin: 0; padding: 0}
+*::-webkit-scrollbar{ 
+    display: none; 
+}
+
+#wrapper{
+	width: 1600px; 
+	height: 700px;
+}
+
+/* LEFT SECTIONS */
+#left-content{
+	width: 200px;
+	height: 700px;
+	float: left;
+}
+
+#left-wrapper{
+	width: 200px;
+	height: 700px;
+	overflow-y: scroll;
+}
+
+#left-content .image-holder{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto 5px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	overflow: hidden;
+	position: relative;
+	z-index: 99;
+}
+
+/* MIDDLE SECTIONS */
+#middle-content{
+	width: 1200px;
+	height: 700px;
+	float: left;
+	position: relative;
+	/*background-color: red;*/
+	background-image: url("../Hackathon/anotherempty.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#middle-header{
+	width: 1200px;
+	height: 100px;
+	text-align: center; 
+	width: inherit; 
+	background-color: rgba(255,255,255,0.4); 
+	height: 100px; 
+}
+
+#middle-header h1{
+	line-height: 100px;
+}
+
+#middle-menu{
+	width: 1200px;
+	height: 100px;
+	padding-left: 270px;
+	padding-top: 30px
+}
+
+#middle-footer{
+	width: 1200px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+}
+
+/* RIGHT SECTIONS */
+#right-content{
+	width: 200px;
+	height: 700px;
+	float: left
+}
+
+#right-wrapper{
+	width: 200px;
+	height: 700px;
+	overflow-y: scroll;
+}
+
+#right-content .image-holder{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto 5px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	overflow: hidden;
+}
+
+/* CLASSESS ATTRIBUTES */
+.btn-option {
+	width: 100px; margin-right: 20px; height: 40px; background-color: rgba(255,255,255,0.9); color: black; float:left}
+	input[type=range]::-webkit-slider-runnable-track {
+	height: 8.4px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #183963; /* Old browsers */
+	background: -moz-linear-gradient(left,  #183963 3%, #8bc1ed 52%, #96c7ec 69%, #96c7ec 69%, #c0def4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #183963 3%,#8bc1ed 52%,#96c7ec 69%,#96c7ec 69%,#c0def4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #183963 3%,#8bc1ed 52%,#96c7ec 69%,#96c7ec 69%,#c0def4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#183963', endColorstr='#c0def4',GradientType=1 ); /* IE6-9 */
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
+}
+
+#demo {position: relative; margin-left: 535px; z-index: 100;}
+.checkbutton {position: relative; margin-left: 340px}
+.btn-back a {color: white; text-decoration-style: none}
+.btn-back {width: 180px; position: relative; height: 70px; float: left; margin: 15px 10px}
+.btn-generate a {color: white; text-decoration-style: none}
+.btn-generate {width: 180px; position: relative; height: 70px; float: right; margin: 15px 10px}
+
+audio {
+	margin-top: 10px
+}
+
+.range {width: 300px; padding: 5px 15px 3px}
+#header {text-align: center; width: inherit; background-color: rgba(255,255,255,0.4); height: 100px; margin-bottom: 20px}
