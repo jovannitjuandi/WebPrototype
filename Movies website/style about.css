@@ -1,0 +1,82 @@
+* {padding:0; margin:0}
+body {background-image:url(image/body.gif)}
+
+#wrapper {width:1246px; margin:auto}
+
+#gray {background-color:#292a2a; padding-bottom:20px}
+
+#header {overflow:hidden; height:100px; padding-top:10px}
+#header menu {text-align:center; margin-left:250px}
+#header menu ul {list-style:none}
+#header menu ul li {float:left; width:100px; margin:5px}
+#header menu ul li a {text-decoration:none; color:#b3b2b2; font-family:Arial, Helvetica, sans-serif; font-weight:bold; line-height:60px}
+#header menu ul li a:hover {background-color:#1e1e1e; display:block; line-height:60px; color:#f59635}
+s
+#title {}
+#title img {width:140px; margin-left:553px; margin-bottom:10px}
+
+#about {color:#FFF; font-family:Arial, Helvetica, sans-serif; padding:10px}
+
+#home {padding:10px; background-color:#ccc; border-radius:10px; background: rgba(255,255,255,0.1)}
+#home a {text-decoration:none; color:#f59635; font-family:Arial, Helvetica, sans-serif}
+#home a:hover {color:#fff; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease}
+#home span {font-family:Arial, Helvetica, sans-serif; color:#fff}
+
+#content {overflow:hidden; padding:10px; height:750px; margin-bottom:20px}
+#content #contentleft {width:382px; float:left; padding:0 10px}
+#content #contentleft h2 {color:#FFF; font-family:Arial, Helvetica, sans-serif; margin-bottom:10px}
+#content #contentleft img {border:8px solid #171717}
+#content #contentleft h4 {color:#FFF; font-family:Arial, Helvetica, sans-serif; margin-bottom:10px}
+#content #contentleft {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif}
+#content #contentmiddle {width:382px; float:left; padding:0 10px; height:100px}
+#content #contentmiddle h2 {color:#FFF; font-family:Arial, Helvetica, sans-serif}
+.year {overflow:hidden; padding-top:10px}
+.year h3 {color:#FFF; font-family:Arial, Helvetica, sans-serif; float:left}
+.year p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; float:right; width:320px}
+#content #contentright {width:382px; float:right; padding:0 10px}
+#content #contentright h2 {font-family:Arial, Helvetica, sans-serif; color:#FFF}
+#content #contentright h3 {color:#FFF; font-family:Arial, Helvetica, sans-serif; font-size:15px}
+#content #contentright p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; padding-top:10px}
+#content #contentright ul {padding-top:10px; color:#FFF}
+#content #contentright ul li {}
+#content #contentright ul li a {text-decoration:none; color:#F59635; font-family:Arial, Helvetica, sans-serif; font-size:14px}
+#content #contentright ul li a:hover {color:#FFF; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease}
+
+#critics {overflow:hidden}
+#critic h2 {color:#FFF; font-family:Arial, Helvetica, sans-serif; margin-bottom:30px}
+#critic1 {width:302.5px; float:left; margin-right:12px}
+#critic1 img {padding:10px; background-color:#171717}
+#critic1 h4 {color:#FFF; font-family:Arial, Helvetica, sans-serif; margin-bottom:10px}
+#critic1 p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif}
+#critic2 {width:302.5px; float:left; margin-right:12px}
+#critic2 img {padding:10px; background-color:#171717}
+#critic2 h4 {color:#FFF; font-family:Arial, Helvetica, sans-serif; margin-bottom:10px}
+#critic2 p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif}
+#critic3 {width:302.5px; float:left; margin-right:12px}
+#critic3 img {padding:10px; background-color:#171717}
+#critic3 h4 {color:#FFF; font-family:Arial, Helvetica, sans-serif; margin-bottom:10px}
+#critic3 p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif}
+#critic4 {width:302.5px; float:right}
+#critic4 img {padding:10px; background-color:#171717}
+#critic4 h4 {color:#FFF; font-family:Arial, Helvetica, sans-serif; margin-bottom:10px}
+#critic4 p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif}
+
+#footer {overflow:hidden; margin-top:80px; border-top: 7px solid rgba(255,255,255,0.1); padding-top:10px}
+#footer #sponsors1 {float:left; width:197.67px; font-family:Arial, Helvetica, sans-serif; color:#FFF; margin-right:11.996px}
+#footer #sponsors1 h3 {margin-top:20px}
+#footer #sponsors2 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors3 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors4 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors5 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors6 {float:right; width:197.67px}
+
+#footerbottom {overflow:hidden; padding-top:40px; border-top: 7px solid rgba(255,255,255,0.1);
+margin-top:20px}
+#footerbottom #footerbottom1 {float:left; width:414.3px}
+#footerbottom #footerbottom1 span {font-family:Arial, Helvetica, sans-serif; color:#FFF}
+#footerbottom #footerbottom2 {float:left; width:460px; overflow:hidden; margin-left:10px}
+#footerbottom #bottom2left {float:left; color:#FFF; margin-bottom:10px; width:220px; font-family:Arial, Helvetica, sans-serif; border-left:1px solid #CCC; padding-left:10px; overflow:hidden}
+#footerbottom #bottom2left i {color:#FFF; margin-right:10px; float:left}
+#footerbottom #bottom2right {float:right; color:#FFF; width:220px; font-family:Arial, Helvetica, sans-serif; border-right:1px solid #CCC; overflow:hidden}
+#footerbottom #bottom2right i {margin-right:10px; float:left}
+#footerbottom #footerbottom3 {float:right; width:260px; padding-left:20px}

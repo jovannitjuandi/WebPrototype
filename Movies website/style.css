@@ -1,0 +1,114 @@
+* {padding:0; margin:0}
+body {background-image:url(image/body.gif)}
+
+#wrapper {width:1246px; margin:auto}
+
+#gray {background-color:#292a2a; padding-bottom:20px}
+
+#header {overflow:hidden; height:100px; padding-top:10px}
+#header menu {text-align:center; margin-left:250px}
+#header menu ul {list-style:none}
+#header menu ul li {float:left; width:100px; margin:5px}
+#header menu ul li a {text-decoration:none; color:#b3b2b2; font-family:Arial, Helvetica, sans-serif; font-weight:bold; line-height:60px}
+#header menu ul li a:hover {background-color:#1e1e1e; display:block; line-height:60px; color:#f59635}
+
+#title {}
+#title img {width:140px; margin-left:553px; margin-bottom:10px}
+
+#slider {width:1166px; margin:auto}
+#slider img {width:1166px; height:478px}
+
+#content {overflow:hidden; padding-left:40px; padding-top:20px; padding-right:40px; width:1166px}
+#content #contentleft {width:336px; float:left; background-color:#0d0d0d; border:1px solid #000; padding:20px; height:445px}
+#content #contentleft h2 {color:#FFF; font-family:Arial, Helvetica, sans-serif; text-decoration:none}
+#content #contentleft a {text-decoration:none; color:#FFF}
+#content #contentleft a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+#content #contentleft p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; margin-top:10px; margin-bottom:10px}
+#content #contentmiddle {width:336px; float:left; margin-left:15px; background-color:#0d0d0d; border:1px solid #000; padding:20px; height:445px}
+#content #contentmiddle h2 {color:#FFF; font-family:Arial, Helvetica, sans-serif; text-decoration:none}
+#content #contentmiddle a {text-decoration:none; color:#FFF}
+#content #contentmiddle a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+#content #contentmiddle p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; margin-top:10px; margin-bottom:10px}
+#content #contentright {width:336px; float:right; background-color:#0d0d0d; border:1px solid #000; padding:20px; height:445px}
+#content #contentright h2 {font-family:Arial, Helvetica, sans-serif}
+#content #contentright a {text-decoration:none; color:#FFF}
+#content #contentright a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+#content #contentright p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; margin-top:10px; margin-bottom:10px}
+
+.read {text-decoration:none; color:#FFF; font-family:Arial, Helvetica, sans-serif}
+.read:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+
+#moviegoer {padding: 20px 320px 20px 80px; border-bottom:1px solid #CCC; margin-bottom:20px}
+#moviegoer h1 {font-family:Arial, Helvetica, sans-serif; color:#f59635; text-align:center; width:1100px}
+#moviegoer a {text-decoration:none; color:#fff}
+#moviegoer a:hover {color:#f59635; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease}
+
+
+#information {overflow:hidden}
+#information #choice1 {float:left; width:302.5px; margin-right:12px; border-bottom:1px solid #CCC; padding-bottom:20px}
+#information #choice1 i {float:left; margin-right:10px; color:#FFF}
+#information #choice1 h3 {font-family:Arial, Helvetica, sans-serif; color:#FFF}
+#information #choice1 h6 {font-family:Arial, Helvetica, sans-serif; color:#f59635; margin-top:20px}
+#information #choice1 p {font-family:Arial, Helvetica, sans-serif; color:#a0a0a0; margin-top:20px; margin-bottom:25px}
+#information #choice2 {float:left; width:302.5px; margin-right:12px; border-bottom:1px solid #CCC; padding-bottom:20px}
+#information #choice2 i {float:left; margin-right:10px; color:#FFF}
+#information #choice2 h3 {font-family:Arial, Helvetica, sans-serif; color:#FFF}
+#information #choice2 h6 {font-family:Arial, Helvetica, sans-serif; color:#f59635; margin-top:20px}
+#information #choice2 p {font-family:Arial, Helvetica, sans-serif; color:#a0a0a0; margin-top:20px; margin-bottom:25px}
+#information #choice3 {float:left; width:302.5px; margin-right:12px; border-bottom:1px solid #CCC; padding-bottom:20px}
+#information #choice3 i {float:left; margin-right:10px; color:#FFF}
+#information #choice3 h3 {font-family:Arial, Helvetica, sans-serif; color:#FFF}
+#information #choice3 h6 {font-family:Arial, Helvetica, sans-serif; color:#f59635; margin-top:20px}
+#information #choice3 p {font-family:Arial, Helvetica, sans-serif; color:#a0a0a0; margin-top:20px; margin-bottom:25px}
+#information #choice4 {float:left; width:302.5px; border-bottom:1px solid #CCC; margin-bottom:20px; padding-bottom:20px}
+#information #choice4 h3 {font-family:Arial, Helvetica, sans-serif; color:#FFF}
+#information #choice4 h6 {font-family:Arial, Helvetica, sans-serif; color:#f59635; margin-top:20px}
+#information #choice4 p {font-family:Arial, Helvetica, sans-serif; color:#a0a0a0; margin-top:20px; margin-bottom:25px}
+
+#john {margin-left:943.5px}
+#john h4 {color:#f59635; font-family:Arial, Helvetica, sans-serif}
+#john h5 {color:#fff; font-family:Arial, Helvetica, sans-serif}
+
+.more {text-decoration:none; color:#FFF; font-family:Arial, Helvetica, sans-serif; height:82px; background-color:#1e1e1e; width:184px; border:1px solid #161616; border-radius:5px; padding:10px 20px; color:#a0a0a0}
+.more:hover {border:1px solid #fff; color:#f59635;-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease}
+
+#bottom {overflow:hidden}
+#bottom h2 {font-family:Arial, Helvetica, sans-serif; color:#FFF; font-weight:bold; margin-bottom:20px}
+#bottom #bottomleft {float:left; width:280px}
+#bottom #lefttop {border-right:1px solid #CCC; padding-right:3px}
+#bottom #lefttop h5 {color:#f59635; font-family:Arial, Helvetica, sans-serif; margin-bottom:10px}
+#bottom #lefttop a {text-decoration:none; color:#FFF; font-family:Arial, Helvetica, sans-serif; text-decoration:none; margin-bottom:10px}
+#bottom #lefttop a:hover {color:#f59635; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease}
+#bottom #lefttop p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; margin-bottom:25px}
+
+#bottom #leftbottom {border-right:1px solid #CCC; padding-right:3px; height:305px}
+#bottom #leftbottom h5 {color:#f59635; font-family:Arial, Helvetica, sans-serif; margin-bottom:10px; margin-top:30px}
+#bottom #leftbottom a {text-decoration:none; color:#FFF; font-family:Arial, Helvetica, sans-serif; text-decoration:none; margin-bottom:10px}
+#bottom #leftbottom a:hover {color:#f59635; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease}
+#bottom #leftbottom p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; margin-bottom:25px}
+
+#bottomright {width:570px; float:right} 
+#bottomright #tab {background-color:#333; padding:20px; border-radius:20px; height:190px}
+#bottomright #tab img {float:left; border:6px solid #171717; margin-right:10px}
+#bottomright #tab h4 {font-family:Arial, Helvetica, sans-serif; color:#FFF; margin-top:20px}
+#bottomright #tab p {font-family:Arial, Helvetica, sans-serif; color:#a0a0a0; font-size:12px; margin-top:20px}
+
+#footer {overflow:hidden; margin-top:80px; border-top: 7px solid rgba(255,255,255,0.1); padding-top:10px}
+#footer #sponsors1 {float:left; width:197.67px; font-family:Arial, Helvetica, sans-serif; color:#FFF; margin-right:11.996px}
+#footer #sponsors1 h3 {margin-top:20px}
+#footer #sponsors2 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors3 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors4 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors5 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors6 {float:right; width:197.67px}
+
+#footerbottom {overflow:hidden; padding-top:40px; border-top: 7px solid rgba(255,255,255,0.1);
+margin-top:20px}
+#footerbottom #footerbottom1 {float:left; width:414.3px}
+#footerbottom #footerbottom1 span {font-family:Arial, Helvetica, sans-serif; color:#FFF}
+#footerbottom #footerbottom2 {float:left; width:460px; overflow:hidden; margin-left:10px}
+#footerbottom #bottom2left {float:left; color:#FFF; margin-bottom:10px; width:220px; font-family:Arial, Helvetica, sans-serif; border-left:1px solid #CCC; padding-left:10px; overflow:hidden}
+#footerbottom #bottom2left i {color:#FFF; margin-right:10px; float:left}
+#footerbottom #bottom2right {float:right; color:#FFF; width:220px; font-family:Arial, Helvetica, sans-serif; border-right:1px solid #CCC; overflow:hidden}
+#footerbottom #bottom2right i {margin-right:10px; float:left}
+#footerbottom #footerbottom3 {float:right; width:260px; padding-left:20px}

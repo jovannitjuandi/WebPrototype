@@ -1,0 +1,141 @@
+* {padding:0; margin:0}
+
+body {background-image:url(image/body.gif)}
+
+#wrapper {width:1246px; margin:auto}
+
+#gray {background-color:#292a2a; padding-bottom:20px}
+
+#header {overflow:hidden; height:100px; padding-top:10px}
+#header menu {text-align:center; margin-left:250px}
+#header menu ul {list-style:none}
+#header menu ul li {float:left; width:100px; margin:5px}
+#header menu ul li a {text-decoration:none; color:#b3b2b2; font-family:Arial, Helvetica, sans-serif; font-weight:bold; line-height:60px}
+#header menu ul li a:hover {background-color:#1e1e1e; display:block; line-height:60px; color:#f59635}
+
+#title {}
+#title img {width:140px; margin-left:553px; margin-bottom:10px}
+
+#review {color:#FFF; font-family:Arial, Helvetica, sans-serif; padding:10px}
+
+#home {padding:10px; background-color:#ccc; border-radius:10px; background: rgba(255,255,255,0.1)}
+#home a {text-decoration:none; color:#f59635; font-family:Arial, Helvetica, sans-serif}
+#home a:hover {color:#fff; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease}
+#home span {font-family:Arial, Helvetica, sans-serif; color:#fff}
+
+#content {overflow:hidden}
+#content #content-left {padding:0px 20px; float:left; width:780px}
+
+#left1 {padding-top:20px}
+#heading1 {margin-bottom:10px}
+#heading1 h2 {font-family:Arial, Helvetica, sans-serif}
+#heading1 a {color:#fff; text-decoration:none}
+#heading1 a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+#divide1 {overflow:hidden}
+#left1-left {float:left; margin-right:10px}
+#left1-left img {border:8px solid #171717}
+#left1-right {float:right; width:550px}
+#left1-right p {color:#fff; font-family:Arial, Helvetica, sans-serif}
+#left1 #list {width:780px; margin-top:10px}
+
+.first {width:780px; border-top: 1px solid rgba(255,255,255,0.1); height:30px; line-height:30px}
+.first i {color:#a0a0a0}
+.first span {color:#fff; font-family:Arial, Helvetica, sans-serif; margin-right:10px}
+.second {width:780px; border-top: 1px solid rgba(255,255,255,0.1); height:30px; line-height:30px}
+.second i {color:#a0a0a0}
+.second span {color:#fff; font-family:Arial, Helvetica, sans-serif; margin-right:10px}
+.third {width:780px; border-top: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1); height:30px; line-height:30px; margin-bottom:20px}
+.third i {color:#a0a0a0}
+.third span {color:#fff; font-family:Arial, Helvetica, sans-serif; margin-right:10px}
+#chain {float:right}
+.button {margin-top:20px}
+.button a {background-color:#1e1e1e; border-radius:5px; padding:7px 50px; text-align:center; border:1px solid #161616; line-height:30px; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#a0a0a0; text-decoration:none}
+.button a:hover {border:1px solid; #fff-webkit-transition: color 0.3s ease; -moz-transition: color 0.3s ease; -ms-transition: color 0.3s ease; -o-transition: color 0.3s ease; transition: color 0.3s ease; color:#fff}
+
+#left2 {padding-top:20px}
+#heading2 {margin-bottom:10px}
+#heading2 h2 {font-family:Arial, Helvetica, sans-serif}
+#heading2 a {color:#fff; text-decoration:none}
+#heading2 a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+#divide2 {overflow:hidden}
+#left2-left {float:left; margin-right:10px}
+#left2-left img {border:8px solid #171717}
+#left2-right {float:right; width:550px}
+#left2-right p {color:#fff; font-family:Arial, Helvetica, sans-serif}
+#left2 #list {width:780px; margin-top:10px}
+
+#left3 {padding-top:20px}
+#heading3 {margin-bottom:10px}
+#heading3 h2 {font-family:Arial, Helvetica, sans-serif}
+#heading3 a {color:#fff; text-decoration:none}
+#heading3 a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+#divide3 {overflow:hidden}
+#left3-left {float:left; margin-right:10px}
+#left3-left img {border:8px solid #171717}
+#left3-right {float:right; width:550px}
+#left3-right p {color:#fff; font-family:Arial, Helvetica, sans-serif}
+#left3 #list {width:780px; margin-top:10px}
+
+#left4 {padding-top:20px}
+#heading4 {margin-bottom:10px}
+#heading4 h2 {font-family:Arial, Helvetica, sans-serif}
+#heading4 a {color:#fff; text-decoration:none}
+#heading4 a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+#divide4 {overflow:hidden}
+#left4-left {float:left; margin-right:10px}
+#left4-left img {border:8px solid #171717}
+#left4-right {float:right; width:550px}
+#left4-right p {color:#fff; font-family:Arial, Helvetica, sans-serif}
+#left4 #list {width:780px; margin-top:10px}
+
+#content #content-right {width:390px; float:right}
+#category {padding-top:10px; margin-bottom:10px}
+#category h2 {color:#fff; font-family:Arial, Helvetica, sans-serif}
+#category a {text-decoration:none; color:#fff; font-family:Arial, Helvetica, sans-serif}
+#category a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+#category ul {color:#fff}
+#category li {margin-top:10px}
+
+#arc {padding-top:10px; margin-bottom:10px}
+#arc h2 {color:#fff; font-family:Arial, Helvetica, sans-serif}
+#arc a {text-decoration:none; color:#fff; font-family:Arial, Helvetica, sans-serif}
+#arc a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+#arc ul {color:#fff}
+#arc li {margin-top:10px}
+
+#recent {margin-top:10px}
+#recent h2 {color:#fff; font-family:Arial, Helvetica, sans-serif}
+.film {overflow:hidden; margin-bottom:20px; margin-top:20px}
+.film #film-left {float:left; width:115px}
+.film #film-left img {border:8px solid #171717}
+.film #film-right {float:right; margin-left:10px; width:260px}
+.film #time {color:#fff; font-family:Arial, Helvetica, sans-serif}
+.film #Stitle {}
+.film #title a {color:#f59635; text-decoration:none; font-family:Arial, Helvetica, sans-serif}
+.film #title a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#fff}
+.film #text {}
+.film #text p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif}
+
+#footer {overflow:hidden; border-top: 7px solid rgba(255,255,255,0.1); padding-top:10px; width:1246px}
+#footer #sponsors1 {float:left; width:197.67px; font-family:Arial, Helvetica, sans-serif; color:#FFF; margin-right:11.996px}
+#footer #sponsors1 h3 {margin-top:20px}
+#footer #sponsors2 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors3 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors4 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors5 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors6 {float:right; width:197.67px}
+
+#footerbottom {overflow:hidden; padding-top:40px; border-top: 7px solid rgba(255,255,255,0.1);
+margin-top:20px; width:1246px}
+#footerbottom #footerbottom1 {float:left; width:414.3px}
+#footerbottom #footerbottom1 span {font-family:Arial, Helvetica, sans-serif; color:#FFF}
+#footerbottom #footerbottom2 {float:left; width:460px; overflow:hidden; margin-left:10px}
+#footerbottom #bottom2left {float:left; color:#FFF; margin-bottom:10px; width:220px; font-family:Arial, Helvetica, sans-serif; border-left:1px solid #CCC; padding-left:10px; overflow:hidden}
+#footerbottom #bottom2left i {color:#FFF; margin-right:10px; float:left}
+#footerbottom #bottom2right {float:right; color:#FFF; width:220px; font-family:Arial, Helvetica, sans-serif; border-right:1px solid #CCC; overflow:hidden}
+#footerbottom #bottom2right i {margin-right:10px; float:left}
+#footerbottom #footerbottom3 {float:right; width:260px; padding-left:20px}
+
+#bebe {width:1246px; height:30px; margin-top:1480px; padding-left:600px; margin-bottom:20px}
+#bebe a {background-color:#1e1e1e; padding:5px; text-align:center; border:1px solid #161616; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#a0a0a0; text-decoration:none}
+#bebe a:hover {color:#fff; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease}

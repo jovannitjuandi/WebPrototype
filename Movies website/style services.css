@@ -1,0 +1,84 @@
+* {padding:0; margin:0}
+
+body {background-image:url(image/body.gif)}
+
+#wrapper {width:1246px; margin:auto}
+
+#gray {background-color:#292a2a; padding-bottom:20px}
+
+#header {overflow:hidden; height:100px; padding-top:10px}
+#header menu {text-align:center; margin-left:250px}
+#header menu ul {list-style:none}
+#header menu ul li {float:left; width:100px; margin:5px}
+#header menu ul li a {text-decoration:none; color:#b3b2b2; font-family:Arial, Helvetica, sans-serif; font-weight:bold; line-height:60px}
+#header menu ul li a:hover {background-color:#1e1e1e; display:block; line-height:60px; color:#f59635}
+
+#title {}
+#title img {width:140px; margin-left:553px; margin-bottom:10px}
+
+#service h2 {color:#FFF; font-family:Arial, Helvetica, sans-serif; padding:10px}
+
+#home {padding:10px; background-color:#ccc; border-radius:10px; background: rgba(255,255,255,0.1)}
+#home a {text-decoration:none; color:#f59635; font-family:Arial, Helvetica, sans-serif}
+#home a:hover {color:#fff; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease}
+#home span {font-family:Arial, Helvetica, sans-serif; color:#fff}
+
+.button a {font-family:Arial, Helvetica, sans-serif; background-color:#1e1e1e; width:150px; border:1px solid #161616; border-radius:5px; padding:10px 20px; color:#a0a0a0; float:right; margin-left:10px; margin-top:10px; text-align:center; line-height:25px; text-decoration:none}
+.button a:hover {color:#fff; color:#fff; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; border:1px solid #fff}
+
+.img {border:8px solid #171717}
+.gambar{width:320px; position:relative; cursor:pointer; margin-top:30px}
+.gambar img{width:320px; margin-left:32px}
+.gambar:hover .efek{opacity:1}
+
+.efek{width:320px; height:218px; background-color: rgba(0, 0, 0, 0.1); position:absolute; top:0; left:0; opacity:0; transition:all 0.8s ease; margin-left:40px}
+
+.efek img{width:70px; height:62px; position:relative; padding:70px 100px}
+
+.read a {padding:10px 20px; margin-left:32px; background-color:#1e1e1e; border:1px solid #171717; width:100px; border-radius:10px; text-align:50px; font-family:Arial, Helvetica, sans-serif; color:#a0a0a0; text-decoration:none}
+.read a:hover {color:#fff; -webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; border:1px solid #fff}
+
+#content {margin-top:200px}
+
+#galleryleft {float:left; width:400px; margin-right:23px}
+.left {float:right}
+.left h3 {font-family:Arial, Helvetica, sans-serif; margin-top:10px; padding-left:32px}
+.left h3 a {text-decoration:none; color:#FFF}
+.left h3 a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+.left p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; margin-top:10px; padding-left:32px; margin-bottom:20px}
+
+#gallerymiddle {float:left; width:400px; margin-right:23px}
+.middle {float:left}
+.middle {float:right}
+.middle h3 {font-family:Arial, Helvetica, sans-serif; margin-top:10px; padding-left:32px}
+.middle h3 a {color:#FFF; text-decoration:none}
+.middle h3 a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+.middle p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; margin-top:10px; padding-left:32px; margin-bottom:20px}
+
+#galleryright {float:right; width:400px}
+.right {float:right}
+.right {float:right}
+.right h3 {font-family:Arial, Helvetica, sans-serif; margin-top:10px; padding-left:32px}
+.right h3 a {color:#FFF; text-decoration:none}
+.right h3 a:hover {-webkit-transition: color 0.5s ease; -moz-transition: color 0.5s ease; -ms-transition: color 0.5s ease; -o-transition: color 0.5s ease; transition: color 0.5s ease; color:#f59635}
+.right p {color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; margin-top:10px; padding-left:32px; margin-bottom:20px}
+
+#footer {overflow:hidden; margin-top:80px; border-top: 7px solid rgba(255,255,255,0.1); padding-top:10px}
+#footer #sponsors1 {float:left; width:197.67px; font-family:Arial, Helvetica, sans-serif; color:#FFF; margin-right:11.996px}
+#footer #sponsors1 h3 {margin-top:20px}
+#footer #sponsors2 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors3 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors4 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors5 {float:left; width:197.67px; margin-right:10px; border-right:1px solid #4f4f4f}
+#footer #sponsors6 {float:right; width:197.67px}
+
+#footerbottom {overflow:hidden; padding-top:40px; border-top: 7px solid rgba(255,255,255,0.1);
+margin-top:20px}
+#footerbottom #footerbottom1 {float:left; width:414.3px}
+#footerbottom #footerbottom1 span {font-family:Arial, Helvetica, sans-serif; color:#FFF}
+#footerbottom #footerbottom2 {float:left; width:460px; overflow:hidden; margin-left:10px}
+#footerbottom #bottom2left {float:left; color:#FFF; margin-bottom:10px; width:220px; font-family:Arial, Helvetica, sans-serif; border-left:1px solid #CCC; padding-left:10px; overflow:hidden}
+#footerbottom #bottom2left i {color:#FFF; margin-right:10px; float:left}
+#footerbottom #bottom2right {float:right; color:#FFF; width:220px; font-family:Arial, Helvetica, sans-serif; border-right:1px solid #CCC; overflow:hidden}
+#footerbottom #bottom2right i {margin-right:10px; float:left}
+#footerbottom #footerbottom3 {float:right; width:260px; padding-left:20px}
